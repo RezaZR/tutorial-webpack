@@ -1,9 +1,8 @@
 import Vue from "vue";
 import App from "./App.vue";
 
-import "./assets/styles/main.scss";
+import "./assets/fonts/Rubik-Regular.ttf";
 
 new Vue({
-  el: "#app",
   render: h => h(App)
-});
+}).$mount("#app");

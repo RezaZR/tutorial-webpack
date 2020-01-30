@@ -5,8 +5,8 @@
   "description": "Tutorial menggunakan webpack",
   "main": "main.js",
   "scripts": {
-    "serve": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "serve": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "Reza Zacky Ramadan",
   "license": "MIT",
@@ -14,16 +14,27 @@
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "babel-loader": "^8.0.6",
+    "bootstrap": "^4.4.1",
     "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "popper.js": "^1.16.1",
     "sass-loader": "^8.0.2",
+    "url-loader": "^3.0.0",
     "vue": "^2.6.11",
     "vue-loader": "^15.8.3",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0"
   }
 }

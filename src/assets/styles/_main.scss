@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: Rubik;
+  src: url("/src/assets/fonts/Rubik-Regular.ttf") format("truetype");
+}
+
+body {
+  background: antiquewhite;
+  font-family: Rubik;
+}
